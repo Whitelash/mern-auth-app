@@ -9,7 +9,7 @@ import Header from "./components/Header.jsx"
 
 export default function App() {
   return <BrowserRouter>
-  {/* header */}
+  {/* header appears in all pages */}  
   <Header />
   <Routes>
     <Route path="/" element={<Home />} />
